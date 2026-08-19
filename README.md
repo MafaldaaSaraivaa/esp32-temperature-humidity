@@ -1,4 +1,4 @@
-# esp32-temperature-hummidity
+# ESP32-temperature-hummidity
 
 Estação meteorológica com ESP32 e DHT22 — leitura de temperatura/humidade, logging em CSV, e evolução para stack MQTT + InfluxDB + Grafana
 
