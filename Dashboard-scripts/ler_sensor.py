@@ -14,7 +14,7 @@ while True:
 
     if sensor_data.in_waiting > 0: 
         print("Reading sensor data...")
-        sensor_data_string = sensor_data.readline().decode('utf-8').strip()
+        sensor_data_string = sensor_data.readline().decode('utf-8', errors='ignore').strip()
         if "Temperatura" in sensor_data_string:
             single_elements = sensor_data_string.split(",")
 
